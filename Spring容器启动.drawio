@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T04:21:42.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="lqpufCQsR0_p5g-1KKb7" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T04:25:07.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="N48FWRRB_SCbbcoHcsgt" version="14.2.9" type="github">
   <diagram id="LiFO-dqfxDTqywaWIYEp" name="Page-1">
-    <mxGraphModel dx="1038" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,8 +63,26 @@
         <mxCell id="6VQLEimUdbVgPZYmoGiA-21" value="&lt;span style=&quot;font-size: 16px&quot;&gt;初始化事件多播器&lt;br&gt;&lt;/span&gt;&lt;br&gt;initApplicationEventMulticaster()" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="1040" width="440" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-26" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" edge="1" parent="1" source="6VQLEimUdbVgPZYmoGiA-23" target="6VQLEimUdbVgPZYmoGiA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6VQLEimUdbVgPZYmoGiA-23" value="&lt;span style=&quot;font-size: 16px&quot;&gt;为子类创建特殊的bean(钩子方法)&lt;br&gt;&lt;/span&gt;&lt;br&gt;onRefresh()" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="1200" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" edge="1" parent="1" source="6VQLEimUdbVgPZYmoGiA-25" target="6VQLEimUdbVgPZYmoGiA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-25" value="&lt;span style=&quot;font-size: 16px&quot;&gt;注册事件监听器&lt;br&gt;&lt;/span&gt;&lt;br&gt;registerListeners()" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1360" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-30" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fillColor=#F2CC8F;fontColor=#393C56;" edge="1" parent="1" source="6VQLEimUdbVgPZYmoGiA-27" target="6VQLEimUdbVgPZYmoGiA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-27" value="&lt;span style=&quot;font-size: 16px&quot;&gt;实例化所有非懒加载的单例bean&lt;br&gt;&lt;/span&gt;&lt;br&gt;finishBeanFactoryInitialization()" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1520" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6VQLEimUdbVgPZYmoGiA-28" value="&lt;span style=&quot;font-size: 16px&quot;&gt;初始化结束，清理资源，发送事件&lt;br&gt;&lt;/span&gt;&lt;br&gt;finishRefresh()" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1680" width="440" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
