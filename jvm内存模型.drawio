@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T12:00:10.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="_6RvN8pc5kvW39c8TWFI" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T12:01:19.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="bTRWrpVDs_wfVowlI4r8" version="14.2.9" type="github">
   <diagram id="XhSW6hmEcI-76zrVA9f5" name="Page-1">
-    <mxGraphModel dx="12050" dy="6140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="291" pageHeight="413" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="17869" dy="9462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="291" pageHeight="413" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,9 +221,6 @@
         </mxCell>
         <mxCell id="FTn2St-VDgIkAUPcDxeP-553" value="&lt;ul&gt;&lt;li&gt;常量池表将在类加载后存放到方法区的运行时常量池中。Class文件中的&lt;b&gt;常量池表&lt;/b&gt; ，用于存放编译器生成的各种&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;字面量&lt;/font&gt;&lt;/b&gt;与&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;符号引用&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;存放由符号引用翻译出来的&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;直接引用&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(26 , 26 , 26)&quot;&gt;具备&lt;/span&gt;&lt;font color=&quot;#cc0000&quot;&gt;动态性，&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;即&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;运行期间&lt;/font&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;也可以将新的常量放入池中&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=37;align=left;spacing=2;spacingTop=5;strokeWidth=7;spacingBottom=5;" vertex="1" parent="1">
           <mxGeometry x="-7280" y="590" width="1140" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="FTn2St-VDgIkAUPcDxeP-555" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=7;fillColor=none;gradientColor=none;fontSize=37;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="-820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTn2St-VDgIkAUPcDxeP-558" value="&lt;b&gt;直接内存&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;不是运行时数据区，&lt;br&gt;可能导致OutOfMemoryError&lt;br&gt;本机直接内存分配受到java堆大小限制&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#A50040;strokeWidth=7;fillColor=#d80073;fontSize=67;align=center;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-2040" y="530" width="1270" height="400" as="geometry" />
